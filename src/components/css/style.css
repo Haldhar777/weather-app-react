@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .box {
+  background-color: skyblue;
+  height: 70px;
+  display: flex;
+}
+
+.box .inputData {
+  margin-left: auto;
+  margin-right: 40px;
+  align-self: center;
+}
+
+.box .logo {
+  display: flex;
+  margin-left: 40px;
+}
+
+.box .logo .logo-pic {
+  font-size: 40px;
+}
+
+.box .logo .logo-name {
+  font-size: 40px;
+}
+
+.box .inputData .inputFeild {
+  display: flex;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  height: 500px;
+}
+
+.container .info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .condition {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.info .cloud {
+  margin-bottom: 15px;
+  font-size: 100px;
+  color: gray;
+}
+
+.info .sun {
+  margin-bottom: 15px;
+  font-size: 100px;
+  color: coral;
+}
+
+.info .rain {
+  margin-bottom: 15px;
+  font-size: 100px;
+  color: blue;
+}
+
+.info .haze {
+  margin-bottom: 15px;
+  font-size: 100px;
+  color: brown;
+}
+
+.info .bolt {
+  margin-bottom: 15px;
+  font-size: 100px;
+  color: skyblue;
+}
+
+.info .location {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.info .temp {
+  font-size: 50px;
+}
+
+.info .tempmin_max {
+  font-size: 20px;
+}
